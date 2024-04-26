@@ -1,0 +1,66 @@
+hr {
+    border:2px solid;
+    color: rgba(212, 206, 206, 0.345);
+    
+}
+span{
+    font-weight: bold;
+}
+.container{
+
+    margin: 0;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+}
+.navbar{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    border-bottom: 20px #ccc;
+    border-top: 20px #ccc;
+
+
+}
+.navbar li{
+    display:inline-block
+
+}
+.navbar a{
+    display: block;
+    padding: 0 20px;
+    line-height: 50px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #888;
+    font-family: 'Domine', serif;
+
+
+}
+.navbar a:hover{
+    border: 20px #999;
+}
+.car-image-container {
+    width: 300px;
+    height: auto;
+    overflow: hidden;
+    display: inline-block;
+    margin: 0 10px;
+    text-align: center;
+    justify-content: center;
+    display:flex;
+    align-items: center;
+  }
+
+  
+  .car-image {
+    width: 500px;
+    height: auto;
+    transition: transform 0.3s;
+    
+
+}
+
+
